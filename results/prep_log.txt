@@ -1,0 +1,24 @@
+odd entities kept: ['Germany', 'Serbia', 'South Sudan', 'Sudan']
+0 sum countries / world = 0.9962 182
+1000 sum countries / world = 0.9967 193
+1500 sum countries / world = 0.9964 198
+1800 sum countries / world = 0.9965 233
+1900 sum countries / world = 0.9977 221
+1950 sum countries / world = 0.9997 238
+2023 sum countries / world = 0.9997 237
+unclassified share 2023: 0.0000
+A 74 countries, 1.34 Bn: United States, Russia, Japan, Germany, United Kingdom, France, Italy, Spain
+B 84 countries, 4.81 Bn: India, China, Indonesia, Brazil, Bangladesh, Mexico, Vietnam, Iran
+C 78 countries, 1.94 Bn: Pakistan, Nigeria, Ethiopia, Philippines, Egypt, Democratic Republic of Congo, Tanzania, Kenya
+       Pop               TFR                 e0              
+g        A     B     C     A     B     C      A      B      C
+Year                                                         
+0     0.03  0.18  0.02   NaN   NaN   NaN    NaN    NaN    NaN
+1000  0.04  0.23  0.05   NaN   NaN   NaN    NaN    NaN    NaN
+1500  0.09  0.34  0.08   NaN   NaN   NaN    NaN    NaN    NaN
+1800  0.23  0.65  0.10   NaN   NaN   NaN    NaN    NaN    NaN
+1900  0.54  0.92  0.17   NaN   NaN   NaN    NaN    NaN    NaN
+1950  0.83  1.37  0.29  2.94  5.81  6.63  63.38  42.96  37.76
+1975  1.09  2.44  0.54  2.01  4.54  6.72  71.76  57.42  49.40
+2000  1.24  3.84  1.10  1.54  2.45  5.47  75.63  68.19  56.79
+2023  1.34  4.82  1.94  1.44  1.66  3.98  80.06  74.89  65.17

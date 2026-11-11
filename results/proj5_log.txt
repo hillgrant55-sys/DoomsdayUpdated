@@ -1,0 +1,68 @@
+DEMOGRAPHY chi2 943.8 n 364 dof 348 chi2/dof 2.71
+  g        0.0080 +- 0.0000
+  beta     1.8836 +- 0.0000
+  a        0.1211 +- 0.0000
+  yM       0.0434 +- 0.0000
+  yF       4.1030 +- 0.0150
+  b        0.5898 +- 0.0005
+  Finf     1.4928 +- 0.0005
+  F0A      4.1107 +- 0.0217
+  d        0.0030 +- 0.0005  (at bound)
+  sB       0.5474 +- 0.0001
+  sC       0.4437 +- 0.0036
+  N0A      0.0224 +- 0.0001
+  N0B      0.1430 +- 0.0001
+  N0C      0.0390 +- 0.0006
+  F0B      5.5105 +- 0.0418
+  F0C      8.0395 +- 0.0009
+{"grp A": {"lnN_pre1500": 0.181, "lnN_1500_1949": 0.029, "lnN_1950on": 0.021, "rate_pct": 0.18, "TFR": 0.074, "e0": 0.014}, "grp B": {"lnN_pre1500": 0.126, "lnN_1500_1949": 0.145, "lnN_1950on": 0.039, "rate_pct": 0.291, "TFR": 0.155, "e0": 0.05}, "grp C": {"lnN_pre1500": 0.324, "lnN_1500_1949": 0.055, "lnN_1950on": 0.019, "rate_pct": 0.183, "TFR": 0.14, "e0": 0.117}, "world": {"lnN_pre1500": 0.084, "lnN_1500_1949": 0.089, "lnN_1950on": 0.025, "rate_rel": 0.101, "TFR": 0.101, "e0": 0.041}}
+{'peak_year': 2054.844, 'peak': 9.222, 'work_peak_year': 2048.006, 'work_peak': 6.145, 'N2050': 9.195, 'N2100': 7.312, 'N2200': 2.693, 'half': 2146.705, 'lt1bn': 2297.968, 'last': 4348.234, 'r_asym': -0.01}
+   peak_year Thursday 05 November 2054
+   work_peak_year Friday 03 January 2048
+   half Thursday 15 September 2146
+   lt1bn Monday 20 December 2297
+   last Friday 26 March 4348
+2025 N [1.27 5.01 1.96] TFR [1.49 1.68 2.52] e0 [80.6 75.4 70. ] | world N 8.24 TFR 1.88 work 0.660 old 0.103
+2050 N [1.13 5.48 2.59] TFR [1.49 1.5  1.56] e0 [82.  79.7 76.9] | world N 9.20 TFR 1.52 work 0.668 old 0.166
+2100 N [0.71 4.13 2.47] TFR [1.49 1.49 1.49] e0 [82.4 81.9 81.1] | world N 7.31 TFR 1.49 work 0.573 old 0.302
+2200 N [0.26 1.51 0.92] TFR [1.49 1.49 1.49] e0 [82.4 82.3 81.9] | world N 2.69 TFR 1.49 work 0.565 old 0.311
+asymptotic decline -1.011%/yr, halving 69 yr
+age validation rms (share points): {'world_work': 0.015, 'world_old': 0.01, 'work_A': 0.016, 'old_A': 0.01, 'work_B': 0.025, 'old_B': 0.013, 'work_C': 0.012, 'old_C': 0.003}
+  2020 world work: model 0.649 obs 0.649; old: model 0.095 obs 0.093
+UN 2050: model [1.13 5.48 2.59 9.2 ] UN [1.32 5.16 3.18 9.66]
+UN 2100: model [0.71 4.13 2.47 7.31] UN [ 1.22  4.17  4.8  10.18]
+profile Finf=1.20 chi2 1028.9 (best 943.8): peak 8.97 in 2048, N2100 6.03, last 3401
+profile Finf=1.80 chi2 1561.6 (best 943.8): peak 11.02 in 2072, N2100 10.40, last nan
+profile Finf=2.02 chi2 3539.1 (best 943.8): peak 13.70 in 2800, N2100 13.32, last nan
+researchers 2000-2020: 62 countries (65% of world), 4.33->8.69 M, growth 3.48%/yr; GDP per worker growth 2.07%/yr; theta/beta = 1.69
+researchers 2005-2020: 75 countries (71% of world), 5.49->9.03 M, growth 3.31%/yr; GDP per worker growth 2.13%/yr; theta/beta = 1.55
+researchers 2010-2020: 84 countries (72% of world), 6.26->9.12 M, growth 3.77%/yr; GDP per worker growth 2.24%/yr; theta/beta = 1.68
+research intensity: early group / covered world = 2.76
+ECONOMICS: theta=1.69 x0=2.07%/yr
+  baseline                           output peak 2070.0 (Monday 30 December 2069) at 1.86x | income/person 2100 1.87x 2200 2.31x, peak none | growth 2050 1.20% 2100 0.44% | <1% in 2058, <0.5% in 2092
+  theta 1.0                          output peak 2076.5 (Tuesday 14 July 2076) at 2.09x | income/person 2100 2.23x 2200 3.06x, peak none | growth 2050 1.49% 2100 0.62% | <1% in 2073, <0.5% in 2114
+  theta 2.2                          output peak 2065.6 (Friday 07 August 2065) at 1.75x | income/person 2100 1.71x 2200 2.03x, peak none | growth 2050 1.04% 2100 0.36% | <1% in 2052, <0.5% in 2083
+  research share catches up          output peak 2083.4 (Friday 28 May 2083) at 2.45x | income/person 2100 2.67x 2200 3.61x, peak none | growth 2050 1.85% 2100 0.66% | <1% in 2083, <0.5% in 2114
+  delta 0.25%                        output peak 2067.2 (Wednesday 30 March 2067) at 1.80x | income/person 2100 1.75x 2200 1.84x, peak 2163 | growth 2050 1.12% 2100 0.30% | <1% in 2055, <0.5% in 2081
+  delta 0.50%                        output peak 2065.0 (Wednesday 07 January 2065) at 1.76x | income/person 2100 1.64x 2200 1.50x, peak 2123 | growth 2050 1.05% 2100 0.18% | <1% in 2052, <0.5% in 2074
+  delta 1.00%                        output peak 2062.6 (Wednesday 16 August 2062) at 1.69x | income/person 2100 1.47x 2200 1.09x, peak 2069 | growth 2050 0.91% 2100 -0.03% | <1% in 2047, <0.5% in 2066
+  no ideas effect (theta=0, x const) output peak nan (never) at 5776.19x | income/person 2100 4.09x 2200 31.78x, peak none | growth 2050 2.07% 2100 2.07% | <1% in nan, <0.5% in nan
+  machines mu=0.01 kappa=1.00        output peak 2070.0 (Wednesday 01 January 2070) at 1.86x | income/person 2100 1.88x 2200 2.33x, peak none | growth 2050 1.20% 2100 0.44% | <1% in 2059, <0.5% in 2093
+  machines mu=0.01 kappa=1.69        output peak 2070.0 (Thursday 02 January 2070) at 1.86x | income/person 2100 1.88x 2200 2.36x, peak none | growth 2050 1.20% 2100 0.45% | <1% in 2059, <0.5% in 2094
+  machines mu=0.01 kappa=2.00        output peak 2070.0 (Friday 03 January 2070) at 1.86x | income/person 2100 1.89x 2200 2.38x, peak none | growth 2050 1.21% 2100 0.45% | <1% in 2059, <0.5% in 2094
+  machines mu=0.01 kappa=3.00        output peak 2070.0 (Tuesday 07 January 2070) at 1.87x | income/person 2100 1.90x 2200 2.49x, peak none | growth 2050 1.21% 2100 0.48% | <1% in 2060, <0.5% in 2097
+  machines mu=0.1 kappa=1.00         output peak 2070.0 (Saturday 11 January 2070) at 1.88x | income/person 2100 1.92x 2200 2.52x, peak none | growth 2050 1.22% 2100 0.49% | <1% in 2060, <0.5% in 2099
+  machines mu=0.1 kappa=1.69         output peak 2071.4 (Saturday 23 May 2071) at 1.90x | income/person 2100 1.98x 2200 2.79x, peak none | growth 2050 1.26% 2100 0.55% | <1% in 2062, <0.5% in 2108
+  machines mu=0.1 kappa=2.00         output peak 2073.7 (Thursday 31 August 2073) at 1.92x | income/person 2100 2.02x 2200 3.04x, peak none | growth 2050 1.28% 2100 0.59% | <1% in 2064, <0.5% in 2118
+  machines mu=0.1 kappa=3.00         SINGULARITY in 2205.5  (Tuesday 02 July 2205)
+  UN population: output peak nan growth 2100 0.56%, workforce growth 2095-2100 -0.23%/yr
+LONGEVITY (pension age unchanged): peak 11.54 Bn in 2113; N2100 11.30; last 4439 (Saturday 25 September 4438); e0 2100 [132. 131. 129.]; work share 2100 0.38, 65+ 0.54; output peak 2070.035842578231 at 1.88x; income 2100 1.24x
+LONGEVITY (working life +50): peak 11.54 Bn in 2113; N2100 11.30; last 4439 (Saturday 25 September 4438); e0 2100 [132. 131. 129.]; work share 2100 0.87, 65+ 0.54; output peak 2114.9887166917133 at 4.78x; income 2100 3.32x
+  machines growing 3.5%/yr from 0.01 output peak nan (never) at 373.54x | income/person 2100 1.90x 2200 3.29x, peak none | growth 2050 1.21% 2100 0.50% | <1% in 2059, <0.5% in 2099
+  machines mu=0.01 kappa=2 long horizon: singularity nan
+  machines growing 3.5%/yr from 0.1  output peak nan (never) at 1392.23x | income/person 2100 2.13x 2200 8.19x, peak none | growth 2050 1.29% 2100 0.88% | <1% in 2068, <0.5% in nan
+  machines mu=0.1 kappa=2 long horizon: singularity 3324.25
+ALT free shock: Finf 1.56 d 0.0122 peak 9.15 in 2055.4, N2100 7.45, last 4753 (Sunday 22 February 4753); output peak 2071.7
+ALT Finf 1.2: output peak 2065.0 last 3401
+BASELINE economic doomsday: 2069.9968951416668 Monday 30 December 2069
+curve keys: ['baseline', 'theta 1.0', 'theta 2.2', 'research share catches up', 'delta 0.25%', 'delta 0.50%', 'delta 1.00%', 'no ideas effect (theta=0, x const)', 'machines mu=0.01 kappa=1.00', 'machines mu=0.01 kappa=1.69', 'machines mu=0.01 kappa=2.00', 'machines mu=0.01 kappa=3.00', 'machines mu=0.1 kappa=1.00', 'machines mu=0.1 kappa=1.69', 'machines mu=0.1 kappa=2.00', 'machines mu=0.1 kappa=3.00', 'long pension age unchanged', 'long working life +50', 'machines growing 3.5%/yr from 0.01', 'machines growing 3.5%/yr from 0.1']

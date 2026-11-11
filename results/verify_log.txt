@@ -1,0 +1,15 @@
+output back to 2025 level: 2168.1999999998698
+income per person 2100/2200/2300/2500: [1.87, 2.31, 2.46, 2.54]
+x 2092ish; workforce growth 2090-2095: -1.00%
+model TFR C at 2020/2025: [2.99110591] [2.52103012]  world N 2025 model 8.24026592801757
+65+ share 2025 0.103 2100 0.302; work 2025 0.660 2100 0.573
+researcher growth total 4.36 M; top contributors:
+Entity
+China            1.61
+United States    0.56
+South Korea      0.33
+India            0.24
+Germany          0.20
+France           0.15
+growth excl. China: 2.79%/yr
+world pop year 0: 232 M; 2023 8.09 Bn; growth 2022-23 0.87%; max annual growth 2.22% in 1964

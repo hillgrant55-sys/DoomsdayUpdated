@@ -1,0 +1,5 @@
+['c_baseline', 'c_theta_1p0', 'c_theta_2p2', 'c_research_share_catches_up', 'c_delta_0p25', 'c_delta_0p50', 'c_delta_1p00', 'c_no_ideas_effect_theta0_x_const', 'c_machines_mu0p01_kappa1p00', 'c_machines_mu0p01_kappa1p69', 'c_machines_mu0p01_kappa2p00', 'c_machines_mu0p01_kappa3p00', 'c_machines_mu0p1_kappa1p00', 'c_machines_mu0p1_kappa1p69', 'c_machines_mu0p1_kappa2p00', 'c_machines_mu0p1_kappa3p00', 'c_long_pension_age_unchanged', 'c_long_working_life_50', 'c_machines_growing_3p5/yr_from_0p01', 'c_machines_growing_3p5/yr_from_0p1']
+c_machines_growing_3p5/yr_from_0p01 local peak 2070.0 (1.87x), trough 2201.2 (1.07x), regains peak 2294.299999999755
+c_machines_growing_3p5/yr_from_0p1 local peak 2150.0 (1.96x), trough 2150.0 (1.96x), regains peak 2150.099999999886
+income plateau: ypc 2300 baseline 2.46; output 2100 1.66 2200 0.76
+world 65+ share 2100 0.302 work 0.573; 2025 work 0.660

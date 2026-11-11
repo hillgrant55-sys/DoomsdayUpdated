@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+results/*.npz
+results/*.npy
+paper/equations/*.aux
+paper/equations/*.log
+paper/equations/*.pdf
+.DS_Store

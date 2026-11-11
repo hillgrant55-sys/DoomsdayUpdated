@@ -1,0 +1,56 @@
+countries: 236 years 1891 2023
+2023 coverage of world pop: 1.000
+
+2023 by life-expectancy band: n, pop (Bn), pop-weighted TFR, share below 2.02
+  e0  0-60:   6  0.28  4.69  0.00
+  e0 60-65:  22  0.49  4.72  0.00
+  e0 65-70:  38  1.04  3.50  0.11
+  e0 70-75:  49  2.64  2.06  0.69
+  e0 75-78:  46  2.39  1.30  0.96
+  e0 78-80:  18  0.46  1.63  0.92
+  e0 80-82:  20  0.25  1.41  0.98
+  e0 82-90:  37  0.53  1.31  0.98
+  e0 78-90:  75  1.24  1.45  0.96
+  e0 80-90:  57  0.78  1.34  0.98
+
+Same bands in earlier years (pop-weighted TFR for e0>=78 / 80):
+  1990  >=78: 1.56 (0.13 Bn)   >=80: -
+  2000  >=78: 1.47 (0.49 Bn)   >=80: 1.33 (0.13 Bn)
+  2010  >=78: 1.67 (1.05 Bn)   >=80: 1.58 (0.67 Bn)
+  2015  >=78: 1.64 (1.11 Bn)   >=80: 1.56 (0.73 Bn)
+  2019  >=78: 1.55 (1.17 Bn)   >=80: 1.44 (0.77 Bn)
+  2023  >=78: 1.45 (1.24 Bn)   >=80: 1.34 (0.78 Bn)
+
+Fixed cohort: countries with TFR<2.02 in 1995; their pop-weighted TFR over time
+  n=69, pop 2023 2.88 Bn
+  1995 1.587
+  2000 1.586
+  2005 1.587
+  2010 1.654
+  2015 1.641
+  2019 1.493
+  2023 1.202
+
+Share of world population living in countries below 2.02:
+  1960 0.03
+  1980 0.21
+  1990 0.17
+  2000 0.40
+  2010 0.46
+  2020 0.48
+  2023 0.67
+
+lowest 2023 (pop>20M):
+     Entity   TFR      e0
+South Korea 0.720 84.3288
+     Taiwan 0.870 80.5588
+    Ukraine 0.977 73.4225
+      China 0.999 77.9529
+      Italy 1.198 83.7157
+      Japan 1.208 84.7123
+   Thailand 1.212 76.4115
+      Spain 1.213 83.6703
+
+TFR vs e0, pop-weighted, by period
+1950-89 {Interval(40.0, 42.5, closed='right'): 5.85, Interval(42.5, 45.0, closed='right'): 6.26, Interval(45.0, 47.5, closed='right'): 6.28, Interval(47.5, 50.0, closed='right'): 6.04, Interval(50.0, 52.5, closed='right'): 6.02, Interval(52.5, 55.0, closed='right'): 5.71, Interval(55.0, 57.5, closed='right'): 5.33, Interval(57.5, 60.0, closed='right'): 5.1, Interval(60.0, 62.5, closed='right'): 4.2, Interval(62.5, 65.0, closed='right'): 3.45, Interval(65.0, 67.5, closed='right'): 2.98, Interval(67.5, 70.0, closed='right'): 2.64, Interval(70.0, 72.5, closed='right'): 2.43, Interval(72.5, 75.0, closed='right'): 1.91, Interval(75.0, 77.5, closed='right'): 1.7, Interval(77.5, 80.0, closed='right'): 1.68}
+1990-2023 {Interval(40.0, 42.5, closed='right'): 6.92, Interval(42.5, 45.0, closed='right'): 6.45, Interval(45.0, 47.5, closed='right'): 6.27, Interval(47.5, 50.0, closed='right'): 6.44, Interval(50.0, 52.5, closed='right'): 6.04, Interval(52.5, 55.0, closed='right'): 5.28, Interval(55.0, 57.5, closed='right'): 5.35, Interval(57.5, 60.0, closed='right'): 4.65, Interval(60.0, 62.5, closed='right'): 4.14, Interval(62.5, 65.0, closed='right'): 3.53, Interval(65.0, 67.5, closed='right'): 2.95, Interval(67.5, 70.0, closed='right'): 2.43, Interval(70.0, 72.5, closed='right'): 2.09, Interval(72.5, 75.0, closed='right'): 1.88, Interval(75.0, 77.5, closed='right'): 1.8, Interval(77.5, 80.0, closed='right'): 1.52, Interval(80.0, 82.5, closed='right'): 1.55, Interval(82.5, 85.0, closed='right'): 1.35}
