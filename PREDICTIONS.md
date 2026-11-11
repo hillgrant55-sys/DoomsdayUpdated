@@ -24,3 +24,7 @@ None.
 ## Scored predictions
 
 None.
+
+## Status, 11 November 2026
+
+No entries. The cohort model failed the pass criterion set in `hindcast/PREREGISTRATION.md` (results in `hindcast/RESULTS.md`), so nothing from it is registered here.

@@ -12,4 +12,10 @@ Mistakes made during the work, mostly by the AI assistant, and how each was caug
 | 6 | 2026-11-10 | Equations in the manuscript were stored as raw LaTeX and exported as source code. | Author noticed in the PDF and Word exports. | Replaced with typeset images. |
 | 7 | 2026-11-11 | `refit5.py` set the 1915–1949 mortality limit by text substitution that matched only the model file's original default. After the default was later changed, a rerun would have silently fitted one case twice. | Rebuilding the repository and rerunning everything from scratch. | None on reported results (the original run predated the change, and the clean rerun reproduces them exactly); fixed. |
 
+
+
+8. **Hindcast script stalled (11 Nov 2026).** The first versions of `hindcast/simple_models.py` integrated the capped and exponential-rate laws numerically; parameter sets with finite-time blow-up stalled the solver and three runs were killed. Fixed by freezing runaway solutions and using the exact solution of the exponential-rate law. No numbers from the stalled runs were used; the final results match the one earlier run that completed.
+
+9. **Wrong expectation (11 Nov 2026).** We predicted in advance that the cohort model fitted to 1970 would miss 2023 world population by more than 10%. It missed by 0.4%. See `hindcast/RESULTS.md`.
+
 Known model limitations (not errors) are listed in the manuscript's Reliability section.
