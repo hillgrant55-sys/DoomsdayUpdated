@@ -84,7 +84,7 @@ Figure: `figures/fig4_hindcast.png`.
 1. **The fertility floor is not a measured constant.** The fitted value falls with every cutoff: 2.26, 2.04, 1.70, 1.49. In each fit it sits close to the lowest fertility any large group had reached by then. The model has no information about where fertility stops; it reports where the leaders currently are. Everything in the essay that depends on the floor (the pace of decline after the peak, the last-person date) inherits this.
 2. **The peak forecast is unstable.** Fits to 1970 and 1990 give no peak at all. A fit to 2000 gives a peak four years earlier and 0.7 billion lower than the published fit. A forecast that changes this much with 23 more years of data should not be given a date.
 3. **Fertility in late-starting countries falls too fast in the model.** In the 1990 and 2000 fits every group has converged to the floor by 2023. In reality the high-fertility group was still at 4.0–4.4 children per woman. The model undercounts that group by 19–26% and overcounts or matches the others, so the world total hides larger group errors.
-4. **The 1970 result is good partly by cancellation.** Groups A and B are 18% too high, group C 5% too low. The world fertility figure is right because all groups had hit a floor that happened to equal the 2023 world average.
+4. **The 1970 result is good partly by cancellation.** Groups A and B are 18% and 15% too high, group C 5% too low. (Corrected 11 Nov after review; first written as "A and B are 18% too high".) The world fertility figure is right because all groups had hit a floor that happened to equal the 2023 world average.
 5. **The model consistently ages the world too fast** (65+ share 0.8 to 2 points high).
 6. **Constant increment is hard to beat over 20–50 years.** World population has grown by a near-constant 80 million or so a year since the 1970s. Any model claiming skill has to beat a straight line first.
 7. **The single-equation laws are not forecasting tools.** The hyperbola fitted to 1650–1970 with today's data returns a singularity in late 2025 (t0 = 2025.8), within about a year of von Foerster's date, and from 1650–1990 gives 2026.3. That reproduces the 1960 result and shows why it fails. Kapitza's form collapses onto the hyperbola at the 1970 and 1990 cutoffs (its time constant runs to the lower bound of 5 years).
@@ -96,8 +96,8 @@ Figure: `figures/fig4_hindcast.png`.
 | 1 | Hyperbola more than 50% too high at every cutoff | Right (104% to 678%, or diverges) |
 | 2 | UN projections of the time beat every model | **Half wrong** (added 11 Nov, see addendum). The 1990 revision beats everything from the 1990 cutoff. The 1998 and 2002 revisions do not: constant increment beats them clearly, and the cohort model is marginally closer on population |
 | 3 | Cohort model from 1970 more than 10% off | **Wrong** (−0.4%), though see point 4 above |
-| 4 | Cohort model from 1990 and 2000 within 3–5%; better than the hyperbola, capped and exponential-rate laws | Right on the range (−4.6%, −4.3%). The capped law from 1650 ties it at 2000 |
-| 5 | Cohort model's 2023 fertility too low at every cutoff | Right at 1990 and 2000; wrong at 1970 |
+| 4 | Cohort model from 1990 and 2000 within 3–5%; better than the hyperbola, capped and exponential-rate laws, worse than the UN | **Partly right.** Range right (−4.6%, −4.3%). The capped law from 1650 ties it at 2000, and it is not worse than the UN's 1998 or 2002 revisions on population |
+| 5 | Cohort model's 2023 fertility too low at every cutoff | **Wrong as worded.** Too low at 1990 and 2000, not at 1970 |
 | 6 | At least one naive baseline beats the cohort model at 1990 or 2000 | Right, at both |
 
 ## Addendum, 11 November 2026: the UN's past projections
