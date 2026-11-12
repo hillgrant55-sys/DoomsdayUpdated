@@ -4,7 +4,7 @@ A response to von Foerster, Mora and Amiot, "Doomsday: Friday, 13 November, A.D.
 
 The 1960 paper fitted two thousand years of population estimates with a hyperbola that reaches infinity on 13 November 2026. This repository refits the idea behind it (a population whose members raise one another's productivity) with modern data, adds the limit the original left out, and asks when a shrinking coalition can no longer sustain its total output.
 
-**Status:** first analysis complete and reproducible. The model **failed its preregistered hindcast** (11 Nov 2026): fitted to data up to 1990 or 2000 it predicts 2023 world population within 5%, but a constant-increment straight line does better. See [hindcast/RESULTS.md](hindcast/RESULTS.md). No forecasts are registered; see [PREDICTIONS.md](PREDICTIONS.md).
+**Status:** first analysis complete and reproducible. The model **failed its preregistered hindcast** (11 Nov 2026): fitted to data up to 1990 or 2000 it predicts 2023 world population within 5%, but a constant-increment straight line does better. See [hindcast/RESULTS.md](hindcast/RESULTS.md). A second preregistered test (12 Nov 2026) asked whether counting researchers helps forecast country growth; it does not beat a country's own past growth. See [growth/RESULTS.md](growth/RESULTS.md). No forecasts are registered; see [PREDICTIONS.md](PREDICTIONS.md).
 
 ## Headline results (baseline model)
 

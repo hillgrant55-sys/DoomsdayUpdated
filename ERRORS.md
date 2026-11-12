@@ -15,5 +15,6 @@ Mistakes made during the work, mostly by the AI assistant, and how each was caug
 | 9 | 2026-11-11 | Wrong expectation: we predicted in advance that the cohort model fitted to 1970 would miss 2023 world population by more than 10%. It missed by 0.4%. | The preregistered hindcast. | None on results; scored as wrong in `hindcast/RESULTS.md`. |
 | 10 | 2026-11-11 | `hindcast/RESULTS.md` and the draft hindcast post said two country groups in the 1970 fit were both 18% too high. They are 18% and 15%. | Independent review pass (`blog/REVIEW-2026-11-11.md`). | Wording only. Corrected in both. |
 | 11 | 2026-11-11 | The draft posts scored two preregistered expectations (4 and 5) more generously than their wording allows, and the draft intro claimed that one script regenerates everything. | Independent review pass. | No effect on numbers. Scoring and wording corrected. |
+| 12 | 2026-11-12 | Wrong expectations in the growth-law hindcast: we predicted persistence would be the worst baseline and that intervals would under-cover. Persistence was the best model and intervals mostly over-covered. | The preregistered hindcast (`growth/RESULTS.md`). | None on results; scored as wrong there. |
 
 Known model limitations (not errors) are listed in the manuscript's Reliability section.

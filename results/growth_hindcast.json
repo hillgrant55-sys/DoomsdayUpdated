@@ -1,0 +1,756 @@
+{
+ "2005": {
+  "2019": {
+   "n": 50,
+   "countries": [
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Belgium",
+    "Bulgaria",
+    "Canada",
+    "China",
+    "Croatia",
+    "Cyprus",
+    "Czechia",
+    "Denmark",
+    "Ecuador",
+    "Estonia",
+    "France",
+    "Germany",
+    "Greece",
+    "Hong Kong",
+    "Hungary",
+    "India",
+    "Ireland",
+    "Italy",
+    "Japan",
+    "Kuwait",
+    "Latvia",
+    "Lithuania",
+    "Madagascar",
+    "Malaysia",
+    "Mexico",
+    "Netherlands",
+    "New Zealand",
+    "North Macedonia",
+    "Norway",
+    "Panama",
+    "Poland",
+    "Portugal",
+    "Romania",
+    "Russia",
+    "Singapore",
+    "Slovakia",
+    "Slovenia",
+    "South Africa",
+    "South Korea",
+    "Spain",
+    "Sri Lanka",
+    "Sweden",
+    "Switzerland",
+    "Thailand",
+    "Turkey",
+    "United Kingdom",
+    "United States"
+   ],
+   "obs_mean": 0.020608540730423047,
+   "train_mean": 0.027289871882603407,
+   "scores": [
+    {
+     "model": "B1 persistence",
+     "n": 50,
+     "rmse": 0.017162125288176115,
+     "rmse_w": 0.010235701896177616,
+     "mae": 0.013853508192624622,
+     "bias": 0.006681331152180363,
+     "coverage": 0.92,
+     "width": 0.0736792785957583,
+     "vs_best_baseline": 0.0
+    },
+    {
+     "model": "B2 mean",
+     "n": 50,
+     "rmse": 0.019238462672632132,
+     "rmse_w": 0.03395079808240528,
+     "mae": 0.015375795764733692,
+     "bias": 0.006681331152180361,
+     "coverage": 0.96,
+     "width": 0.0736792785957583,
+     "vs_best_baseline": 0.12098369809049903
+    },
+    {
+     "model": "B3 shrinkage",
+     "n": 50,
+     "rmse": 0.01863449103666856,
+     "rmse_w": 0.028064127666424427,
+     "mae": 0.015055735097660507,
+     "bias": 0.0090575642113381,
+     "coverage": 0.94,
+     "width": 0.057260297435510754,
+     "vs_best_baseline": 0.08579157439823804
+    },
+    {
+     "model": "B4 convergence",
+     "n": 50,
+     "rmse": 0.01740653494908123,
+     "rmse_w": 0.023617555559302453,
+     "mae": 0.012962800662708586,
+     "bias": 0.007019372296881828,
+     "coverage": 0.88,
+     "width": 0.054252825382508654,
+     "vs_best_baseline": 0.014241223438305806
+    },
+    {
+     "model": "M1 research intensity",
+     "n": 50,
+     "rmse": 0.015790602570733493,
+     "rmse_w": 0.0154860153704014,
+     "mae": 0.012322387727728123,
+     "bias": 0.0073600609062318325,
+     "coverage": 0.92,
+     "width": 0.048515764404120816,
+     "vs_best_baseline": -0.07991566862569965
+    },
+    {
+     "model": "M2 researcher growth",
+     "n": 50,
+     "rmse": 0.016651292249504405,
+     "rmse_w": 0.026462345341242328,
+     "mae": 0.012643527400362125,
+     "bias": 0.005958655430301275,
+     "coverage": 0.9,
+     "width": 0.05337335921361772,
+     "vs_best_baseline": -0.02976513864653174
+    },
+    {
+     "model": "M3 head count",
+     "n": 50,
+     "rmse": 0.01742816836285776,
+     "rmse_w": 0.019542785292199927,
+     "mae": 0.014767031236968093,
+     "bias": 0.010491905325323762,
+     "coverage": 0.84,
+     "width": 0.0478870870625226,
+     "vs_best_baseline": 0.015501755768263514
+    },
+    {
+     "model": "M4 scale",
+     "n": 50,
+     "rmse": 0.017367336418812322,
+     "rmse_w": 0.023332043510322975,
+     "mae": 0.013006724550302596,
+     "bias": 0.007037159708655647,
+     "coverage": 0.88,
+     "width": 0.05482377927090975,
+     "vs_best_baseline": 0.011957209680644176
+    }
+   ],
+   "coef": {
+    "B3 shrinkage": [
+     0.02518033489178781,
+     0.15439715917940725
+    ],
+    "B4 convergence": [
+     0.1324035778243256,
+     -0.009813198717265255
+    ],
+    "M1 research intensity": [
+     0.19251622561579781,
+     -0.023089248194424122,
+     0.011353515673736575
+    ],
+    "M2 researcher growth": [
+     0.13583222418261884,
+     -0.009891654735971917,
+     -0.07804357340625297
+    ],
+    "M3 head count": [
+     0.16828995798706858,
+     -0.01234521137047091,
+     -0.987371200392707
+    ],
+    "M4 scale": [
+     0.13197207803642258,
+     -0.009883958062285947,
+     0.00011996669764842314
+    ]
+   }
+  },
+  "2023": {
+   "n": 50,
+   "countries": [
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Belgium",
+    "Bulgaria",
+    "Canada",
+    "China",
+    "Croatia",
+    "Cyprus",
+    "Czechia",
+    "Denmark",
+    "Ecuador",
+    "Estonia",
+    "France",
+    "Germany",
+    "Greece",
+    "Hong Kong",
+    "Hungary",
+    "India",
+    "Ireland",
+    "Italy",
+    "Japan",
+    "Kuwait",
+    "Latvia",
+    "Lithuania",
+    "Madagascar",
+    "Malaysia",
+    "Mexico",
+    "Netherlands",
+    "New Zealand",
+    "North Macedonia",
+    "Norway",
+    "Panama",
+    "Poland",
+    "Portugal",
+    "Romania",
+    "Russia",
+    "Singapore",
+    "Slovakia",
+    "Slovenia",
+    "South Africa",
+    "South Korea",
+    "Spain",
+    "Sri Lanka",
+    "Sweden",
+    "Switzerland",
+    "Thailand",
+    "Turkey",
+    "United Kingdom",
+    "United States"
+   ],
+   "obs_mean": 0.01920495231760042,
+   "train_mean": 0.027289871882603407,
+   "scores": [
+    {
+     "model": "B1 persistence",
+     "n": 50,
+     "rmse": 0.016596780963102492,
+     "rmse_w": 0.008056387519055234,
+     "mae": 0.012642606259928914,
+     "bias": 0.00808491956500299,
+     "coverage": 0.94,
+     "width": 0.0736792785957583,
+     "vs_best_baseline": 0.0
+    },
+    {
+     "model": "B2 mean",
+     "n": 50,
+     "rmse": 0.01818453210169137,
+     "rmse_w": 0.029801659001530534,
+     "mae": 0.014745184561396474,
+     "bias": 0.008084919565002988,
+     "coverage": 0.96,
+     "width": 0.0736792785957583,
+     "vs_best_baseline": 0.09566621034034983
+    },
+    {
+     "model": "B3 shrinkage",
+     "n": 50,
+     "rmse": 0.01791408197761288,
+     "rmse_w": 0.02405693804091518,
+     "mae": 0.014715854539225404,
+     "bias": 0.010461152624160726,
+     "coverage": 0.92,
+     "width": 0.057260297435510754,
+     "vs_best_baseline": 0.07937087423392386
+    },
+    {
+     "model": "B4 convergence",
+     "n": 50,
+     "rmse": 0.017107730662019212,
+     "rmse_w": 0.020199626746241203,
+     "mae": 0.012713468895054637,
+     "bias": 0.008422960709704455,
+     "coverage": 0.9,
+     "width": 0.054252825382508654,
+     "vs_best_baseline": 0.03078607231442354
+    },
+    {
+     "model": "M1 research intensity",
+     "n": 50,
+     "rmse": 0.015528726648115328,
+     "rmse_w": 0.012918463703390198,
+     "mae": 0.012221682403952565,
+     "bias": 0.008763649319054458,
+     "coverage": 0.94,
+     "width": 0.048515764404120816,
+     "vs_best_baseline": -0.06435310060195609
+    },
+    {
+     "model": "M2 researcher growth",
+     "n": 50,
+     "rmse": 0.01639798361203942,
+     "rmse_w": 0.02284157076535957,
+     "mae": 0.012329878057341138,
+     "bias": 0.007362243843123903,
+     "coverage": 0.92,
+     "width": 0.05337335921361772,
+     "vs_best_baseline": -0.01197806680132929
+    },
+    {
+     "model": "M3 head count",
+     "n": 50,
+     "rmse": 0.017924442805297116,
+     "rmse_w": 0.016106957859008886,
+     "mae": 0.015742640065949613,
+     "bias": 0.012482601347707447,
+     "coverage": 0.86,
+     "width": 0.0478870870625226,
+     "vs_best_baseline": 0.0799951415365574
+    },
+    {
+     "model": "M4 scale",
+     "n": 50,
+     "rmse": 0.01706893549453523,
+     "rmse_w": 0.01995121193717203,
+     "mae": 0.012724102828591398,
+     "bias": 0.008440748121478272,
+     "coverage": 0.9,
+     "width": 0.05482377927090975,
+     "vs_best_baseline": 0.028448560746955565
+    }
+   ],
+   "coef": {
+    "B3 shrinkage": [
+     0.02518033489178781,
+     0.15439715917940725
+    ],
+    "B4 convergence": [
+     0.1324035778243256,
+     -0.009813198717265255
+    ],
+    "M1 research intensity": [
+     0.19251622561579781,
+     -0.023089248194424122,
+     0.011353515673736575
+    ],
+    "M2 researcher growth": [
+     0.13583222418261884,
+     -0.009891654735971917,
+     -0.07804357340625297
+    ],
+    "M3 head count": [
+     0.16828995798706858,
+     -0.01234521137047091,
+     -0.987371200392707
+    ],
+    "M4 scale": [
+     0.13197207803642258,
+     -0.009883958062285947,
+     0.00011996669764842314
+    ]
+   }
+  },
+  "world": {
+   "train_growth": 0.018421934142541743,
+   "researcher_growth_train": NaN,
+   "researcher_growth_test": 0.03247535928547505,
+   "lam": NaN,
+   "pred_constant": 0.018421934142541743,
+   "pred_law": NaN,
+   "obs": 0.021303309265004698
+  }
+ },
+ "2010": {
+  "2019": {
+   "n": 52,
+   "countries": [
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Belgium",
+    "Bolivia",
+    "Bulgaria",
+    "Canada",
+    "China",
+    "Croatia",
+    "Cyprus",
+    "Czechia",
+    "Denmark",
+    "Ecuador",
+    "Estonia",
+    "France",
+    "Germany",
+    "Greece",
+    "Hong Kong",
+    "Hungary",
+    "India",
+    "Ireland",
+    "Italy",
+    "Japan",
+    "Kuwait",
+    "Latvia",
+    "Lithuania",
+    "Madagascar",
+    "Malaysia",
+    "Mexico",
+    "Netherlands",
+    "New Zealand",
+    "North Macedonia",
+    "Norway",
+    "Pakistan",
+    "Panama",
+    "Poland",
+    "Portugal",
+    "Romania",
+    "Russia",
+    "Singapore",
+    "Slovakia",
+    "Slovenia",
+    "South Africa",
+    "South Korea",
+    "Spain",
+    "Sri Lanka",
+    "Sweden",
+    "Switzerland",
+    "Thailand",
+    "Turkey",
+    "United Kingdom",
+    "United States"
+   ],
+   "obs_mean": 0.023134381708822368,
+   "train_mean": 0.02278667904271955,
+   "scores": [
+    {
+     "model": "B1 persistence",
+     "n": 52,
+     "rmse": 0.010386874656064377,
+     "rmse_w": 0.010116946911210891,
+     "mae": 0.007633004373757006,
+     "bias": -0.00034770266610281806,
+     "coverage": 0.9807692307692307,
+     "width": 0.059921283784580275,
+     "vs_best_baseline": 0.0
+    },
+    {
+     "model": "B2 mean",
+     "n": 52,
+     "rmse": 0.01785787522618896,
+     "rmse_w": 0.03015984223560911,
+     "mae": 0.01404644933741091,
+     "bias": -0.00034770266610281524,
+     "coverage": 0.9038461538461539,
+     "width": 0.059921283784580275,
+     "vs_best_baseline": 0.7192731998323132
+    },
+    {
+     "model": "B3 shrinkage",
+     "n": 52,
+     "rmse": 0.014336145037620771,
+     "rmse_w": 0.017345661271048262,
+     "mae": 0.010492429971793742,
+     "bias": -0.00023423266882098765,
+     "coverage": 0.9038461538461539,
+     "width": 0.05068487017685734,
+     "vs_best_baseline": 0.3802173909213984
+    },
+    {
+     "model": "B4 convergence",
+     "n": 52,
+     "rmse": 0.018085272715240894,
+     "rmse_w": 0.02191435589761422,
+     "mae": 0.012869888682778755,
+     "bias": -0.002296689405015313,
+     "coverage": 0.7884615384615384,
+     "width": 0.04531089755604663,
+     "vs_best_baseline": 0.741165972834938
+    },
+    {
+     "model": "M1 research intensity",
+     "n": 52,
+     "rmse": 0.016561362035955526,
+     "rmse_w": 0.016220616691506328,
+     "mae": 0.01140125169214005,
+     "bias": -0.0016881105735318174,
+     "coverage": 0.8076923076923077,
+     "width": 0.04098497763488001,
+     "vs_best_baseline": 0.5944509377790723
+    },
+    {
+     "model": "M2 researcher growth",
+     "n": 52,
+     "rmse": 0.018493467028205843,
+     "rmse_w": 0.02262999538587216,
+     "mae": 0.012678189441106835,
+     "bias": -0.003162107283910784,
+     "coverage": 0.75,
+     "width": 0.0426850814004808,
+     "vs_best_baseline": 0.7804650234619355
+    },
+    {
+     "model": "M3 head count",
+     "n": 52,
+     "rmse": 0.015304453216072197,
+     "rmse_w": 0.01840516346509196,
+     "mae": 0.010904747957646435,
+     "bias": 0.0005102251684439053,
+     "coverage": 0.8461538461538461,
+     "width": 0.04150625108688027,
+     "vs_best_baseline": 0.47344160036981786
+    },
+    {
+     "model": "M4 scale",
+     "n": 52,
+     "rmse": 0.017955531773516088,
+     "rmse_w": 0.017255250698679885,
+     "mae": 0.013011703432362085,
+     "bias": -0.0018510787202257427,
+     "coverage": 0.75,
+     "width": 0.04468860918650682,
+     "vs_best_baseline": 0.7286751181726017
+    }
+   ],
+   "coef": {
+    "B3 shrinkage": [
+     0.016049245984508007,
+     0.2997207184714098
+    ],
+    "B4 convergence": [
+     0.1559223834343198,
+     -0.012624299141007926
+    ],
+    "M1 research intensity": [
+     0.21774293736128622,
+     -0.024884306202708227,
+     0.009576449445877135
+    ],
+    "M2 researcher growth": [
+     0.1683103371571369,
+     -0.013353049057220828,
+     -0.11873329632906685
+    ],
+    "M3 head count": [
+     0.17769721125490368,
+     -0.014168320825201104,
+     -0.5772864440392792
+    ],
+    "M4 scale": [
+     0.14936204391214322,
+     -0.013891771359899335,
+     0.0020160059631921232
+    ]
+   }
+  },
+  "2023": {
+   "n": 52,
+   "countries": [
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Belgium",
+    "Bolivia",
+    "Bulgaria",
+    "Canada",
+    "China",
+    "Croatia",
+    "Cyprus",
+    "Czechia",
+    "Denmark",
+    "Ecuador",
+    "Estonia",
+    "France",
+    "Germany",
+    "Greece",
+    "Hong Kong",
+    "Hungary",
+    "India",
+    "Ireland",
+    "Italy",
+    "Japan",
+    "Kuwait",
+    "Latvia",
+    "Lithuania",
+    "Madagascar",
+    "Malaysia",
+    "Mexico",
+    "Netherlands",
+    "New Zealand",
+    "North Macedonia",
+    "Norway",
+    "Pakistan",
+    "Panama",
+    "Poland",
+    "Portugal",
+    "Romania",
+    "Russia",
+    "Singapore",
+    "Slovakia",
+    "Slovenia",
+    "South Africa",
+    "South Korea",
+    "Spain",
+    "Sri Lanka",
+    "Sweden",
+    "Switzerland",
+    "Thailand",
+    "Turkey",
+    "United Kingdom",
+    "United States"
+   ],
+   "obs_mean": 0.020187499309926988,
+   "train_mean": 0.02278667904271955,
+   "scores": [
+    {
+     "model": "B1 persistence",
+     "n": 52,
+     "rmse": 0.009919032265914321,
+     "rmse_w": 0.012298302847816996,
+     "mae": 0.007285406598090534,
+     "bias": 0.002599179732792561,
+     "coverage": 1.0,
+     "width": 0.059921283784580275,
+     "vs_best_baseline": 0.0
+    },
+    {
+     "model": "B2 mean",
+     "n": 52,
+     "rmse": 0.016012647455476405,
+     "rmse_w": 0.026195060461738126,
+     "mae": 0.012704822730905067,
+     "bias": 0.0025991797327925632,
+     "coverage": 0.9423076923076923,
+     "width": 0.059921283784580275,
+     "vs_best_baseline": 0.6143356555560497
+    },
+    {
+     "model": "B3 shrinkage",
+     "n": 52,
+     "rmse": 0.01291468845887414,
+     "rmse_w": 0.013612655885010157,
+     "mae": 0.00964961468544208,
+     "bias": 0.0027126497300743913,
+     "coverage": 0.9230769230769231,
+     "width": 0.05068487017685734,
+     "vs_best_baseline": 0.3020109333905554
+    },
+    {
+     "model": "B4 convergence",
+     "n": 52,
+     "rmse": 0.017088509553575725,
+     "rmse_w": 0.019089394973725568,
+     "mae": 0.011635682547738703,
+     "bias": 0.0006501929938800653,
+     "coverage": 0.8653846153846154,
+     "width": 0.04531089755604663,
+     "vs_best_baseline": 0.7228000772110132
+    },
+    {
+     "model": "M1 research intensity",
+     "n": 52,
+     "rmse": 0.015405666865288882,
+     "rmse_w": 0.01381731191322508,
+     "mae": 0.010474385819426493,
+     "bias": 0.001258771825363561,
+     "coverage": 0.8846153846153846,
+     "width": 0.04098497763488001,
+     "vs_best_baseline": 0.553142126397631
+    },
+    {
+     "model": "M2 researcher growth",
+     "n": 52,
+     "rmse": 0.017648602969353062,
+     "rmse_w": 0.019848134518812413,
+     "mae": 0.012294427205365156,
+     "bias": -0.00021522488501540615,
+     "coverage": 0.8076923076923077,
+     "width": 0.0426850814004808,
+     "vs_best_baseline": 0.7792666155548835
+    },
+    {
+     "model": "M3 head count",
+     "n": 52,
+     "rmse": 0.015082103370205862,
+     "rmse_w": 0.015444266578296012,
+     "mae": 0.01048099318189842,
+     "bias": 0.0036059726088924363,
+     "coverage": 0.8653846153846154,
+     "width": 0.04150625108688027,
+     "vs_best_baseline": 0.520521656334749
+    },
+    {
+     "model": "M4 scale",
+     "n": 52,
+     "rmse": 0.01687312615014076,
+     "rmse_w": 0.01547634955292378,
+     "mae": 0.012354748722175346,
+     "bias": 0.001095803678669636,
+     "coverage": 0.8461538461538461,
+     "width": 0.04468860918650682,
+     "vs_best_baseline": 0.7010859222752432
+    }
+   ],
+   "coef": {
+    "B3 shrinkage": [
+     0.016049245984508007,
+     0.2997207184714098
+    ],
+    "B4 convergence": [
+     0.1559223834343198,
+     -0.012624299141007926
+    ],
+    "M1 research intensity": [
+     0.21774293736128622,
+     -0.024884306202708227,
+     0.009576449445877135
+    ],
+    "M2 researcher growth": [
+     0.1683103371571369,
+     -0.013353049057220828,
+     -0.11873329632906685
+    ],
+    "M3 head count": [
+     0.17769721125490368,
+     -0.014168320825201104,
+     -0.5772864440392792
+    ],
+    "M4 scale": [
+     0.14936204391214322,
+     -0.013891771359899335,
+     0.0020160059631921232
+    ]
+   }
+  },
+  "world": {
+   "train_growth": 0.01874785236567356,
+   "researcher_growth_train": NaN,
+   "researcher_growth_test": 0.0369105450420096,
+   "lam": NaN,
+   "pred_constant": 0.01874785236567356,
+   "pred_law": NaN,
+   "obs": 0.022397089319279074
+  }
+ },
+ "sample_aggregate_law": {
+  "2005": {
+   "train_growth": 0.021015815814973526,
+   "researcher_growth_train": 0.03158013517857446,
+   "researcher_growth_test": 0.029905276068628684,
+   "lam": 1.5026842382237657,
+   "pred_constant": 0.021015815814973526,
+   "pred_law": 0.020814747826871875,
+   "obs": 0.024545558558069107
+  },
+  "2010": {
+   "train_growth": 0.01991999344147352,
+   "researcher_growth_train": 0.029610913468164614,
+   "researcher_growth_test": 0.03286146947789322,
+   "lam": 1.486492129385673,
+   "pred_constant": 0.01991999344147352,
+   "pred_law": 0.02016382348241278,
+   "obs": 0.026903885577318168
+  }
+ }
+}
