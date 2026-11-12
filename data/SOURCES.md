@@ -16,8 +16,9 @@ The chart addresses below are inferred from the downloaded filenames and should 
 | global-average-gdp-per-capita-over-the-long-run.csv | ourworldindata.org/grapher/global-average-gdp-per-capita-over-the-long-run | Growth of output per worker; failed GDP fit | 4f80c567684e3a19b2750ace696508f694aff6ff21b20199e355ff57ee87558b |
 | researchers-in-rd-per-million-people-vs-gdp-pc.csv | ourworldindata.org/grapher/researchers-in-rd-per-million-people-vs-gdp-pc | Researcher growth (calibrates λ) | eb8f344e4c93131010b56e7feaea10104087c72df6b40f914fc3d3deed4ca6b9 |
 | migrant-stock-share.csv | ourworldindata.org/grapher/migrant-stock-share | Size of omitted migration | 0f1831c454c3762613bdbf1b3598cb04044aaa6220c19e005dd828ddd6030d3c |
+| world-population-projections-by-un-prospects-revision.csv | ourworldindata.org/population-projections (chart: World population, comparison of UN projections) | UN past medium projections, hindcast benchmark | 69f7776db501b7d02fe503c47a1db6d061dbda203e82c07f11c6dbffa7c8922e |
 | population-of-cities-towns-and-villages.csv | ourworldindata.org/grapher/population-of-cities-towns-and-villages | Not yet used | 7b4f39b7a8b803b6f2efd0fe865df3ab9dfb8d0f4eae693ec486313366af7d59 |
 
 To verify: `cd data/raw && sha256sum *.csv`.
 
-Not yet obtained, needed for the next analyses: UN World Population Prospects past revisions (for the hindcast), Penn World Table, OpenAlex counts.
+Not yet obtained, needed for the next analyses: Penn World Table, OpenAlex counts.

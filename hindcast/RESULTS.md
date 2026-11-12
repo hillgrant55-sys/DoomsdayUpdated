@@ -94,11 +94,40 @@ Figure: `figures/fig4_hindcast.png`.
 | # | Expectation | Outcome |
 |---|---|---|
 | 1 | Hyperbola more than 50% too high at every cutoff | Right (104% to 678%, or diverges) |
-| 2 | UN projections of the time beat every model | Not tested: past-revision data not yet obtained |
+| 2 | UN projections of the time beat every model | **Half wrong** (added 11 Nov, see addendum). The 1990 revision beats everything from the 1990 cutoff. The 1998 and 2002 revisions do not: constant increment beats them clearly, and the cohort model is marginally closer on population |
 | 3 | Cohort model from 1970 more than 10% off | **Wrong** (−0.4%), though see point 4 above |
 | 4 | Cohort model from 1990 and 2000 within 3–5%; better than the hyperbola, capped and exponential-rate laws | Right on the range (−4.6%, −4.3%). The capped law from 1650 ties it at 2000 |
 | 5 | Cohort model's 2023 fertility too low at every cutoff | Right at 1990 and 2000; wrong at 1970 |
 | 6 | At least one naive baseline beats the cohort model at 1990 or 2000 | Right, at both |
+
+## Addendum, 11 November 2026: the UN's past projections
+
+Added after the run above, when the data were obtained. Source: `data/raw/world-population-projections-by-un-prospects-revision.csv` (Our World in Data, "World population, comparison of UN projections"). Script: `hindcast/un_past.py`.
+
+**Deviation.** The file gives projections every five years, so there is no 2023 value. We interpolate log-linearly between each revision's 2020 and 2025 figures. The 2020 errors, which need no interpolation, are given alongside.
+
+| UN revision | 2020 error | 2023 population (Bn, interpolated) | Error | Growth 2015–23 (%/yr) | Error (points) | Error in its base-year estimate | Error with base-year error removed |
+|---|---|---|---|---|---|---|---|
+| 1982 | −1.0% | 8.03 | −0.8% | n/a | n/a | −0.6% | −0.3% |
+| 1984 | −0.8% | 8.05 | −0.5% | n/a | n/a | −0.7% | +0.2% |
+| 1990 | +2.6% | 8.34 | +3.0% | 1.06 | +0.06 | +0.2% | +2.8% |
+| 1998 | −4.9% | 7.69 | −4.9% | 0.91 | −0.09 | −1.9% | −3.1% |
+| 2002 | −4.4% | 7.73 | −4.5% | 0.89 | −0.11 | −2.0% | −2.6% |
+| 2012 | −2.2% | 7.94 | −1.9% | 1.00 | 0.00 | −2.0% | 0.0% |
+
+"Base-year estimate" is the revision's figure for its first projected year compared with today's estimate for that year. The last column compares projected growth from that year with actual growth.
+
+**Against the models.**
+
+- *From 1990.* UN 1990 revision +3.0% and +0.06 points on growth. Constant increment +3.3% and +0.15. Cohort model −4.6% and −0.12. The UN is best on both.
+- *From about 2000.* UN 1998 revision −4.9%, 2002 revision −4.5%; growth −0.09 and −0.11 points. Constant increment −0.3% and +0.07. Cohort model −4.3% and −0.29. Constant increment is best. The cohort model is marginally closer than the UN on population and much worse on growth rate.
+
+**What this adds.**
+
+1. The cohort model and the UN's 1998 and 2002 revisions miss 2023 in the same direction by a similar amount. Both expected fertility to fall faster than it did.
+2. About two points of the UN's 1998–2002 error come from its population estimates for the base year, which were later revised up. Our models were given today's estimates and had no such handicap. On projected growth alone the UN (−3.1%, −2.6%) is better than the cohort model (−4.3%).
+3. The UN's 1982 and 1984 revisions, made 40 years ahead, are within 1% of 2023. Our cohort model from 1970 is also close, and we called that partly luck. We have no basis for saying whether the UN's 1980s accuracy was skill or luck either.
+4. The verdict on the cohort model does not change. The pass criterion was fixed in advance and did not involve the UN.
 
 ## Deviations and details not fixed in advance
 
@@ -106,7 +135,7 @@ Figure: `figures/fig4_hindcast.png`.
 - **Seed choice.** Fit-period misfit (seed 1 / seed 2): 1970, 254.8 / 256.0; 1990, 526.265 / 526.265; 2000, 597.2 / 598.2. The 1990 seeds agree to five digits and give the same forecast to 0.03%.
 - **Single-equation fits.** Bounds and optimiser were not specified in advance. Used: differential evolution plus three hand-chosen starts for the closed-form models, 12 random starts plus three hand-chosen for the capped law, each refined by least squares. Results were identical to a first run using the hand-chosen starts only. The exponential-rate law is evaluated from its exact solution, t(N) = t0 + τ[Ei(−KN) − Ei(−KN0)].
 - **Constants at bounds.** Excess-mortality constant at its cap in all cohort fits (as in the published fit). In the 1970 fit the fertility-transition scale is at its upper bound (seed 1). Kapitza time constant at its lower bound (5 years) in five of six fits; capped-law ceiling at its upper bound (200 Bn) in two.
-- **Exponential-rate law.** The form used is the one written in the preregistration. It has not been re-checked against Zaccone and Trachenko's paper, and their name should not be attached to these numbers until it is.
+- **Exponential-rate law.** The form used is the one written in the preregistration. Checked on 11 Nov against Zaccone and Trachenko (arXiv:2502.19063): the equation dy/dt = (y/τ) exp(Ky) is theirs. They do not fit one K to the whole record; they describe different historical regimes as different limits of the equation. Our single-K fit over 0–cutoff or 1650–cutoff is therefore our use of their equation, not a test of their paper's claims.
 - **World fertility in the model** is total births divided by the sum over groups of births/fertility, which equals the world rate given the shared age pattern of childbearing.
 - **Process error.** The first three attempts at the single-equation script stalled on runaway ODE solutions and were killed. No results from them were used. Logged in `ERRORS.md`.
 
