@@ -1,0 +1,114 @@
+NGA,t,dpop,decl,loss,polchange
+Latium,-600,0.0,False,False,True
+Latium,-500,0.4559319556497199,False,False,False
+Latium,-400,0.17609125905567957,False,False,False
+Latium,-300,0.6989700043360205,False,False,True
+Latium,-200,0.6989700043360196,False,False,True
+Latium,-100,0.9030899869919402,False,False,True
+Latium,0,0.2218487496163597,False,False,False
+Latium,100,0.04139268515822003,False,False,False
+Latium,200,0.05551732784982999,False,True,True
+Latium,600,-0.7403626894942397,True,False,False
+Latium,700,0.09691001300805979,False,True,True
+Latium,800,-0.14923127307111983,False,False,False
+Latium,900,0.014927332987189956,False,True,True
+Latium,1000,-0.07330437041782023,False,False,False
+Latium,1100,-0.039575258309979766,False,False,True
+Latium,1200,0.10451606524299972,False,False,False
+Latium,1300,0.0,False,True,True
+Latium,1400,-0.17609125905568934,True,False,False
+Latium,1500,0.42596873227229004,False,False,True
+Latium,1600,0.0,False,True,True
+Latium,1700,0.0746336182968994,False,False,False
+Paris Basin,-200,0.0,False,False,True
+Paris Basin,-100,0.0,False,False,True
+Paris Basin,600,-0.17609125905567957,True,False,True
+Paris Basin,700,0.0,False,True,True
+Paris Basin,800,1.24303804868629,False,True,True
+Paris Basin,900,-0.5898255349109496,True,False,True
+Paris Basin,1000,-0.7781512503836403,True,False,False
+Paris Basin,1100,0.0,False,False,True
+Paris Basin,1200,0.7269987279362597,False,False,False
+Paris Basin,1300,0.6283889300503098,False,False,True
+Paris Basin,1400,-0.27620641193894,True,False,True
+Paris Basin,1500,0.08715017571890016,False,False,True
+Paris Basin,1600,0.22577904324478038,False,False,True
+Iceland,1200,0.1249387366082999,False,False,True
+Crete,1200,0.08245895580886042,False,True,True
+Upper Egypt,-3500,0.0,False,False,False
+Upper Egypt,-3400,0.58502665202918,False,False,True
+Upper Egypt,-2800,0.0,False,False,False
+Upper Egypt,-2700,0.0,False,False,True
+Upper Egypt,-1900,0.0,False,False,False
+Upper Egypt,-1800,0.0,False,True,True
+Upper Egypt,-1400,0.0,False,False,False
+Upper Egypt,-1300,0.0,False,False,True
+Upper Egypt,-1200,-0.19589965240922957,True,False,False
+Upper Egypt,-1100,0.0,False,True,True
+Upper Egypt,-600,-0.10689423391466057,False,False,True
+Upper Egypt,-300,0.4057653461839994,False,False,True
+Upper Egypt,-200,-0.24303804868629975,True,False,False
+Upper Egypt,-100,-0.09017663034908985,False,False,True
+Upper Egypt,1000,0.31742041185215,False,False,False
+Upper Egypt,1100,-0.5282737771670503,True,True,True
+Upper Egypt,1200,0.36408174141106997,False,False,True
+Upper Egypt,1300,-0.22577904324479015,True,False,True
+Upper Egypt,1400,-0.19629464514395956,True,True,True
+Upper Egypt,1500,-0.03891806603037029,False,True,True
+Southern Mesopotamia,200,0.022276394711149727,False,True,True
+Southern Mesopotamia,800,0.0,False,False,False
+Southern Mesopotamia,900,-0.4471580313422203,True,True,True
+Southern Mesopotamia,1000,-0.30102999566398037,True,False,True
+Galilee,-1000,0.10914446942506029,False,False,False
+Galilee,-900,0.5898255349109496,False,False,False
+Galilee,-800,0.30102999566399014,False,False,True
+Galilee,-200,0.5166297960033308,False,True,True
+Konya Plain,-1700,0.0,False,False,True
+Konya Plain,-1600,1.2041199826559303,False,True,True
+Konya Plain,-1200,0.0,False,True,True
+Konya Plain,-200,0.9637878273455502,False,True,True
+Konya Plain,-100,-1.8176597916673103,True,False,True
+Konya Plain,400,-0.5642714304385601,True,False,False
+Konya Plain,500,0.1249387366083008,False,False,False
+Konya Plain,600,-0.16272729749770054,True,True,True
+Konya Plain,700,-0.37863485347665016,True,False,False
+Konya Plain,800,0.05324551195323046,False,False,True
+Konya Plain,900,0.09017663034908008,False,False,False
+Konya Plain,1000,0.17609125905569023,False,False,True
+Konya Plain,1100,-0.8361431973613405,True,False,False
+Konya Plain,1200,0.0,False,False,True
+Konya Plain,1500,0.25527250510331,False,False,True
+Konya Plain,1600,0.4929155219028907,False,True,True
+Konya Plain,1700,-0.0669467896306104,False,False,False
+Yemeni Coastal Plain,300,-0.13830269816627982,False,True,True
+Middle Yellow River Valley,-1700,0.0,False,True,True
+Middle Yellow River Valley,-100,0.0,False,False,False
+Middle Yellow River Valley,0,0.0,False,True,True
+Middle Yellow River Valley,100,-0.3977783157830599,True,False,False
+Middle Yellow River Valley,200,0.37716933266113983,False,False,True
+Middle Yellow River Valley,600,0.15760785336166006,False,False,True
+Middle Yellow River Valley,700,-0.09455610761458022,False,False,True
+Middle Yellow River Valley,800,0.10849188555788025,False,False,False
+Middle Yellow River Valley,900,0.16840443038938968,False,False,True
+Middle Yellow River Valley,1000,0.05799194697768062,False,False,False
+Middle Yellow River Valley,1100,0.0,False,True,True
+Middle Yellow River Valley,1200,-0.20848478805837,True,False,True
+Middle Yellow River Valley,1300,0.16720093431730998,False,True,True
+Middle Yellow River Valley,1400,-0.058539916954400084,False,False,False
+Middle Yellow River Valley,1500,-0.09647420922251015,False,False,False
+Middle Yellow River Valley,1600,0.29320799292603006,False,False,True
+Middle Yellow River Valley,1700,0.07918124604763044,False,False,True
+Middle Yellow River Valley,1800,0.39064076993052943,False,False,False
+Kansai,200,0.0,False,False,True
+Kansai,300,1.89085553057493,False,False,False
+Kansai,400,0.0,False,False,False
+Kansai,500,0.15490195998575018,False,False,True
+Kansai,1000,-0.022276394711149727,False,False,False
+Kansai,1100,0.09415840201727033,False,True,True
+Kansai,1200,0.0,False,False,False
+Kansai,1300,0.0036649540864095442,False,False,True
+Kansai,1400,0.32239304727951,False,True,True
+Kansai,1500,0.07918124604761978,False,False,True
+Kansai,1600,0.1663314217665306,False,False,True
+Kansai,1700,0.11997531707674991,False,False,False
+Valley of Oaxaca,-400,0.0,False,False,True

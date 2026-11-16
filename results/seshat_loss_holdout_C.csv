@@ -1,0 +1,44 @@
+NGA,t,dpop,decl,loss,polchange
+Niger Inland Delta,1000,1.6118198286171195,False,False,True
+Niger Inland Delta,1400,0.0,False,True,True
+Niger Inland Delta,1500,0.0,False,False,True
+Niger Inland Delta,1600,-0.25527250510330024,True,True,True
+Niger Inland Delta,1700,-0.09691001300805979,False,False,True
+Susiana,-3800,1.1613680022349797,False,False,False
+Susiana,-3700,0.0,False,False,False
+Susiana,-3600,0.0,False,False,False
+Susiana,-3500,0.08167004645131026,False,False,False
+Susiana,-400,0.053245511953229574,False,True,True
+Susiana,-300,-0.053245511953229574,False,False,False
+Susiana,-200,0.0,False,False,True
+Susiana,-100,-0.6253313337409505,True,False,False
+Susiana,0,0.3147560201707398,False,False,True
+Susiana,400,0.0,False,False,True
+Susiana,500,0.25042000230889006,False,False,False
+Susiana,600,0.15441371431105022,False,False,True
+Susiana,1100,0.3838153659804302,False,False,True
+Sogdiana,-200,-1.1186897873313004,True,True,True
+Sogdiana,400,-0.6020599913279598,True,False,True
+Sogdiana,500,1.3263358609287499,False,True,True
+Sogdiana,600,-1.1802078252505197,True,False,True
+Sogdiana,700,-1.73115468770742,True,False,True
+Sogdiana,1000,-0.38021124171160015,True,False,False
+Sogdiana,1300,-0.05115252244737967,False,False,True
+Sogdiana,1400,1.38916608436453,False,False,False
+Orkhon Valley,600,-0.2218487496163597,True,True,True
+Orkhon Valley,700,0.0,False,False,True
+Orkhon Valley,1700,1.3010299956639901,False,False,True
+Deccan,-300,3.41866949353078,False,True,True
+Deccan,0,0.014240439114609593,False,False,False
+Deccan,100,0.0,False,False,False
+Deccan,200,0.0401172232079805,False,True,True
+Cambodian Basin,1200,0.0,False,True,True
+Cambodian Basin,1300,0.0,False,False,False
+Cambodian Basin,1400,0.0,False,False,True
+Cambodian Basin,1500,-0.23408320603336996,True,True,True
+Central Java,1200,0.07918124604761978,False,False,True
+Big Island Hawaii,1300,0.2841620703766803,False,False,False
+Big Island Hawaii,1400,0.24119129403150996,False,False,False
+Big Island Hawaii,1500,0.31078983295314,False,True,False
+Cahokia,1200,0.0,False,True,True
+Cahokia,1300,-0.5228787452803303,True,True,True

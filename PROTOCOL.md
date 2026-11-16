@@ -44,3 +44,4 @@ New exploratory finding awaiting a fresh test: adding human capital to the combi
 
 **16 November 2026.** Rule 7 is extended. `PREDICTIONS.md` may also hold (a) forecasts published by others, registered with their source so they can be scored, and (b) the authors' own stated expectations, labelled as judgement. Neither counts as a forecast from a model of ours. Converting a published increment into a level uses a baseline stated in the entry, and that conversion is ours. Entries are never edited after registration; corrections are added as dated notes.
 
+**16 November 2026.** New question opened: does population decline cause loss of capability (Seshat)? Attempt 1 of 3, not supported (`seshat/RESULTS.md`). The held-out Seshat regions have been used for this question.

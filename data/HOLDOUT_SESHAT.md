@@ -12,4 +12,4 @@ Committed 16 November 2026, after reading only the workbook's sheet names, colum
 
 ## Uses
 
-None.
+- 16 November 2026: knowledge-loss test (`seshat/RESULTS.md`), replication stage, run once.

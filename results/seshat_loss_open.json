@@ -1,0 +1,73 @@
+{
+ "stage": "open",
+ "region_centuries_with_several_rows": 3,
+ "ambiguous_dropped": 2,
+ "capability (Infra+Info+Money)": {
+  "n": 113,
+  "regions": 12,
+  "declines": 20,
+  "losses": 28,
+  "loss_rate": 0.24778761061946902,
+  "crude_rr": 0.775,
+  "rr_mh": 0.9393939393939394,
+  "p_perm": 0.5615438456154385,
+  "table": {
+   "same polity / no sharp decline": {
+    "n": 31,
+    "losses": 0,
+    "rate": 0.0
+   },
+   "same polity / sharp decline": {
+    "n": 9,
+    "losses": 0,
+    "rate": 0.0
+   },
+   "polity change / no sharp decline": {
+    "n": 62,
+    "losses": 24,
+    "rate": 0.3870967741935484
+   },
+   "polity change / sharp decline": {
+    "n": 11,
+    "losses": 4,
+    "rate": 0.36363636363636365
+   }
+  },
+  "loss_rate_polchange": 0.3835616438356164,
+  "loss_rate_samepolity": 0.0
+ },
+ "military technology (6 components)": {
+  "n": 113,
+  "regions": 12,
+  "declines": 20,
+  "losses": 23,
+  "loss_rate": 0.20353982300884957,
+  "crude_rr": 0.6975,
+  "rr_mh": 0.8454545454545455,
+  "p_perm": 0.7372262773722628,
+  "table": {
+   "same polity / no sharp decline": {
+    "n": 31,
+    "losses": 0,
+    "rate": 0.0
+   },
+   "same polity / sharp decline": {
+    "n": 9,
+    "losses": 0,
+    "rate": 0.0
+   },
+   "polity change / no sharp decline": {
+    "n": 62,
+    "losses": 20,
+    "rate": 0.3225806451612903
+   },
+   "polity change / sharp decline": {
+    "n": 11,
+    "losses": 3,
+    "rate": 0.2727272727272727
+   }
+  },
+  "loss_rate_polchange": 0.3150684931506849,
+  "loss_rate_samepolity": 0.0
+ }
+}
