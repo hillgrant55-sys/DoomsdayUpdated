@@ -1,6 +1,6 @@
-# DRAFT preregistration: is capability lost when populations shrink?
+# Preregistration: is capability lost when populations shrink?
 
-Status: **draft for review, 16 November 2026.** Not in force. Only the workbook's sheet names, column headers and region names have been read; no values. Holdout committed in `data/HOLDOUT_SESHAT.md`.
+Status: **in force.** Agreed by Grant Hill on 16 November 2026 and committed before any code was written or any value read. Before this commit, only the workbook's sheet names, column headers, region names and its Metadata sheet (descriptions of the sheets) were read. Not edited after this commit; deviations go in `seshat/RESULTS.md`. Holdout committed in `data/HOLDOUT_SESHAT.md`.
 
 ## Question
 
@@ -22,6 +22,14 @@ Seshat Equinox-2020, sheet `AggrSCWarAgriRelig`: one row per region (NGA), polit
 - **Capability index:** C = Infra + Info + Money (infrastructure, information systems, monetary system), as supplied.
 - **Loss event:** C(t+100) < C(t).
 - **Polity change:** whether the polity occupying the region at t+100 differs from the one at t. Losses at polity transitions may partly reflect different coders and sources, so results are stratified by it.
+
+## Clarifications fixed before any value was read
+
+From the workbook's Metadata sheet:
+- Rows with `uniq = n` are fillers that copy earlier values so series run at century intervals. A transition is used only if the rows at t−100, t and t+100 all have `uniq = y`; this avoids counting copied rows as "no change".
+- `Dupl` marks rows where one polity controlled two regions. Such rows stay in both regions' series; the permutation test shuffles within regions.
+- Missing values (blank or −999) exclude a transition.
+- Pop is taken to be log10 polity population, as in Turchin et al. (2018, PNAS 115: 144–151), so the −0.15 threshold stands.
 
 ## Test
 
