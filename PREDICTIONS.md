@@ -2,7 +2,7 @@
 
 Every forecast this project makes is recorded here before its outcome is known, then scored when the date arrives. The commit that adds an entry is its timestamp. Entries are never edited after registration; corrections are added as new entries.
 
-**No predictions are registered yet.** The standards in the README require a model to pass a hindcast (fitted on data up to an earlier date and scored on what followed) before it may register forecasts. The first hindcast was run on 11 November 2026 and the model failed it (see Status below).
+**No forecasts from our own models are registered.** (Since 16 November 2026 the ledger holds published forecasts by others and our stated expectations; see Scoreboard 1.) The standards in the README require a model to pass a hindcast (fitted on data up to an earlier date and scored on what followed) before it may register forecasts. The first hindcast was run on 11 November 2026 and the model failed it (see Status below).
 
 ## Format for each entry
 
@@ -109,4 +109,6 @@ Registered 16 November 2026. Prior evidence: an NBER study of AlphaFold2 (w35143
 | **Our expectation (judgement)** | **within the trend band** | Complement, as in the NBER evidence |
 
 Outcome below 15,730: substitution supported. Inside the band: complement continues. Above the band: AI is accelerating experimental work.
+
+**Correction note, 16 November 2026 (S4).** The source note for the PDB values is imprecise. The 2015–2019 values were read from www.rcsb.org (2017 shows 11,061 there and 11,063 on www3.rcsb.org); 2020–2025 from sierra.k8s.rcsb.org. The registered forecast is unchanged.
 
