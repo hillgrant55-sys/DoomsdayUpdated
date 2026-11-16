@@ -1,6 +1,6 @@
-# DRAFT preregistration, attempt 2 of 3: does a coalition measure help forecast productivity growth?
+# Preregistration, attempt 2 of 3: does a coalition measure help forecast productivity growth?
 
-Status: **draft for review, 16 November 2026.** Nothing below has been run. When agreed, this file is renamed `PREREGISTRATION_v2.md`, committed, and not edited again. No Penn World Table values have been read; the design uses only the file's column names and coverage.
+Status: **in force.** Agreed by Grant Hill on 16 November 2026 and committed before any code was written or run. Not edited after this commit; deviations go in `growth/RESULTS_v2.md`. No Penn World Table values have been read; the design uses only the file's column names and coverage.
 
 ## Question
 
