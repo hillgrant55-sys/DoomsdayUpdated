@@ -32,4 +32,10 @@ Adopted 12 November 2026, before the next datasets (Penn World Table, OpenAlex) 
 
 ## Amendments
 
-None.
+**16 November 2026.** Status update after the second coalition test (`growth/RESULTS_v2.md`), which failed.
+
+| Question | Targets now also spent | Attempts used |
+|---|---|---|
+| Does a coalition measure help forecast country growth | Ten-year growth in output per worker (Penn World Table 11.0), non-held-out countries, forecast years 1975–2013 | 2 of 3 |
+
+New exploratory finding awaiting a fresh test: adding human capital to the combined baseline lowered forecast error by 4.7% over forecast years 1975–2000 and raised it over 2005–2013. Found on spent data.
