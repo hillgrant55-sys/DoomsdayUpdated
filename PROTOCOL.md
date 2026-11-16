@@ -39,3 +39,5 @@ Adopted 12 November 2026, before the next datasets (Penn World Table, OpenAlex) 
 | Does a coalition measure help forecast country growth | Ten-year growth in output per worker (Penn World Table 11.0), non-held-out countries, forecast years 1975–2013 | 2 of 3 |
 
 New exploratory finding awaiting a fresh test: adding human capital to the combined baseline lowered forecast error by 4.7% over forecast years 1975–2000 and raised it over 2005–2013. Found on spent data.
+
+**16 November 2026.** The third coalition attempt (`growth/RESULTS_v3.md`) failed at its preregistered gate on the open countries. The coalition question is closed under rule 5: these data do not support the idea that coalition measures improve ten-year country growth forecasts. Reopening it requires new data and an amendment here. The held-out countries were not used and remain available for other questions.
