@@ -6,3 +6,4 @@ paper/equations/*.aux
 paper/equations/*.log
 paper/equations/*.pdf
 .DS_Store
+data/external/
