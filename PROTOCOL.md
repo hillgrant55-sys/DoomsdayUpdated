@@ -41,3 +41,6 @@ Adopted 12 November 2026, before the next datasets (Penn World Table, OpenAlex) 
 New exploratory finding awaiting a fresh test: adding human capital to the combined baseline lowered forecast error by 4.7% over forecast years 1975–2000 and raised it over 2005–2013. Found on spent data.
 
 **16 November 2026.** The third coalition attempt (`growth/RESULTS_v3.md`) failed at its preregistered gate on the open countries. The coalition question is closed under rule 5: these data do not support the idea that coalition measures improve ten-year country growth forecasts. Reopening it requires new data and an amendment here. The held-out countries were not used and remain available for other questions.
+
+**16 November 2026.** Rule 7 is extended. `PREDICTIONS.md` may also hold (a) forecasts published by others, registered with their source so they can be scored, and (b) the authors' own stated expectations, labelled as judgement. Neither counts as a forecast from a model of ours. Converting a published increment into a level uses a baseline stated in the entry, and that conversion is ours. Entries are never edited after registration; corrections are added as dated notes.
+
