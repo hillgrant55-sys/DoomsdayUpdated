@@ -94,3 +94,19 @@ A single year is noisy; S3 is kept because it is the survey's own target.
 - Arnon (2025), Penn Wharton Budget Model; OECD (Filippucci et al.), as compiled in Karger et al. (2026) and by Tom Cunningham, "Forecasts of AI & Economic Growth" (2025).
 - BLS, Productivity and Costs, Third Quarter 2026, Preliminary (5 November 2026).
 
+### S4. Do AI structure predictors substitute for experimental structural biology? Experimental structures released by the PDB in 2030
+
+Registered 16 November 2026. Prior evidence: an NBER study of AlphaFold2 (w35143) finds the rate of experimental structure determination almost unchanged after July 2021, with predicted structures used to complement experiments. This entry asks whether that still holds as prediction tools improve.
+
+- **Measure:** "Number of Structures Released Annually" for 2030 in the RCSB PDB table "Overall Growth of Released Structures Per Year" (rcsb.org/stats/growth/growth-released-structures), as displayed on 31 March 2031.
+- **Values as retrieved 16 Nov 2026** (mirror sierra.k8s.rcsb.org; other mirrors differ by under 1% for complete years): 2015 9,244; 2016 10,805; 2017 11,061; 2018 11,169; 2019 11,479; 2020 14,006; 2021 12,586; 2022 14,290; 2023 14,500; 2024 15,471; 2025 15,730.
+- **Resolves:** April 2031.
+
+| Contestant | Forecast for 2030 | Basis |
+|---|---|---|
+| Substitution: AI prediction displaces experiments | below 15,730 (the 2025 level) | Directional; no published point forecast |
+| Trend continues (log-linear fit, 2015–2025) | 20,739 (80% band 19,419–22,149) | 5.0% a year; band from fit residuals |
+| **Our expectation (judgement)** | **within the trend band** | Complement, as in the NBER evidence |
+
+Outcome below 15,730: substitution supported. Inside the band: complement continues. Above the band: AI is accelerating experimental work.
+
