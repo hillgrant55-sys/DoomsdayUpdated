@@ -12,6 +12,15 @@ ABW AGO AIA ALB ARE ARG ARM BGD BHS BOL CAF CIV CUW DMA DZA GBR GHA GNB GTM GUY 
 
 **Known contamination.** Some held-out countries were in the 50–52 country sample of the first growth hindcast (`results/growth_hindcast.json`), which used a different dataset (GDP per capita and researcher counts, 1996–2023). Their growth after 2005 has therefore been seen in aggregate scores, though not country by country except for six outliers printed during checking (Ireland, Turkey, Malaysia, Russia, Argentina, Greece).
 
+## Breach, 16 November 2026 (OpenAlex article counts)
+
+The OpenAlex data was fetched through a connector whose results pass through the AI's context. Seven of eight results were large enough to be saved to disk unread apart from a short preview; the 2020–2023 result was not, and was displayed in full. As a result the following were seen for held-out countries before any model was specified:
+
+- annual article counts for 2020–2023, every country;
+- decade totals for the ten to thirty largest countries in each decade (previews), which include the United Kingdom and South Korea.
+
+No Penn World Table values for any country have been read, and productivity and output are the quantities any test will be scored on. Article counts are a predictor, not a target. The held-out article counts for all years are stored in `data/sealed/` and have not been opened. Any test that uses held-out article counts for 2020–2023 must state this breach.
+
 ## Uses
 
 None.

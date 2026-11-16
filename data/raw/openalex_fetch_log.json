@@ -1,0 +1,64 @@
+{
+ "fetched": "2026-11-16",
+ "via": "OpenAlex connector, calculate_works",
+ "definition": "non-retracted works of type article, counted once for each country among the authors' institutions",
+ "queries": [
+  {
+   "span": "1950-1959",
+   "oql": "get the count of non-retracted articles by country and year from 1950\u20132023",
+   "reproduce_url": "https://api.openalex.org/?oql=get%20the%20count%20of%20non-retracted%20articles%20by%20country%20and%20year%20from%201950%E2%80%932023",
+   "countries": 230,
+   "total_works": null
+  },
+  {
+   "span": "1960-1969",
+   "oql": "get the count of non-retracted articles by country and year from 1960\u20131969",
+   "reproduce_url": "https://api.openalex.org/?oql=get%20the%20count%20of%20non-retracted%20articles%20by%20country%20and%20year%20from%201960%E2%80%931969",
+   "countries": 184,
+   "total_works": 4924727
+  },
+  {
+   "span": "1970-1979",
+   "oql": "get the count of non-retracted articles by country and year from 1970\u20131979",
+   "reproduce_url": "https://api.openalex.org/?oql=get%20the%20count%20of%20non-retracted%20articles%20by%20country%20and%20year%20from%201970%E2%80%931979",
+   "countries": 203,
+   "total_works": 7953600
+  },
+  {
+   "span": "1980-1989",
+   "oql": "get the count of non-retracted articles by country and year from 1980\u20131989",
+   "reproduce_url": "https://api.openalex.org/?oql=get%20the%20count%20of%20non-retracted%20articles%20by%20country%20and%20year%20from%201980%E2%80%931989",
+   "countries": 214,
+   "total_works": 11289179
+  },
+  {
+   "span": "1990-1999",
+   "oql": "get the count of non-retracted articles by country and year from 1990\u20131999",
+   "reproduce_url": "https://api.openalex.org/?oql=get%20the%20count%20of%20non-retracted%20articles%20by%20country%20and%20year%20from%201990%E2%80%931999",
+   "countries": 218,
+   "total_works": 17312636
+  },
+  {
+   "span": "2000-2009",
+   "oql": "get the count of non-retracted articles by country and year from 2000\u20132009",
+   "reproduce_url": "https://api.openalex.org/?oql=get%20the%20count%20of%20non-retracted%20articles%20by%20country%20and%20year%20from%202000%E2%80%932009",
+   "countries": 226,
+   "total_works": 34228340
+  },
+  {
+   "span": "2010-2019",
+   "oql": "get the count of non-retracted articles by country and year from 2010\u20132019",
+   "reproduce_url": "https://api.openalex.org/?oql=get%20the%20count%20of%20non-retracted%20articles%20by%20country%20and%20year%20from%202010%E2%80%932019",
+   "countries": 227,
+   "total_works": 55628709
+  },
+  {
+   "span": "2015-2023",
+   "oql": "get the count of non-retracted articles by country and year from 2015\u20132023",
+   "reproduce_url": "https://api.openalex.org/?oql=get%20the%20count%20of%20non-retracted%20articles%20by%20country%20and%20year%20from%202015%E2%80%932023",
+   "countries": 229,
+   "total_works": 51546123
+  }
+ ],
+ "note": "The 1950-2023 query returned only the first ten years per country (1950-1959); later decades came from separate queries. 2015-2019 was fetched twice as a consistency check."
+}

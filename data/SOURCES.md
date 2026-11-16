@@ -18,6 +18,7 @@ The chart addresses below are inferred from the downloaded filenames and should 
 | migrant-stock-share.csv | ourworldindata.org/grapher/migrant-stock-share | Size of omitted migration | 0f1831c454c3762613bdbf1b3598cb04044aaa6220c19e005dd828ddd6030d3c |
 | world-population-projections-by-un-prospects-revision.csv | ourworldindata.org/population-projections (chart: World population, comparison of UN projections) | UN past medium projections, hindcast benchmark | 69f7776db501b7d02fe503c47a1db6d061dbda203e82c07f11c6dbffa7c8922e |
 | pwt110.xlsx | Penn World Table 11.0, www.ggdc.net/pwt (Feenstra, Inklaar and Timmer 2015) | Output, employment, hours, capital, productivity by country, 1950-2023 | 7b337e94f39dfe304bc459e433f8ce0624496c812707ae0c924888f5142b3ab3 |
+| openalex_articles_by_country_year.csv | OpenAlex, fetched 16 Nov 2026 through its connector; exact queries and links in openalex_fetch_log.json | Non-retracted articles by country of author institution and year, 1950-2023, non-held-out countries only (held-out countries in data/sealed/) | 4a6b304d9a0e5da2f8a0052deb4f98e186a216d2148f14d0b4a12395dbb13480 |
 | population-of-cities-towns-and-villages.csv | ourworldindata.org/grapher/population-of-cities-towns-and-villages | Not yet used | 7b4f39b7a8b803b6f2efd0fe865df3ab9dfb8d0f4eae693ec486313366af7d59 |
 
 To verify: `cd data/raw && sha256sum *.csv`.
